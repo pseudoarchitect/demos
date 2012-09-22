@@ -9,5 +9,6 @@
   <modules>
     <module>customer-stubs</module>
     <module>customer-service-impl</module>
+    <module>CustomerServiceWAR</module>
   </modules>
 </project>

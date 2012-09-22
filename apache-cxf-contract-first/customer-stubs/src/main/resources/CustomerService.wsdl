@@ -117,10 +117,7 @@
   </wsdl:binding>
   <wsdl:service name="CustomerServiceService">
     <wsdl:port name="CustomerServicePort" binding="tns:CustomerServiceServiceSoapBinding">
-      <!-- embedded deployment -->
-      <soap:address location="http://localhost:9090/CustomerServicePort"/>
-      <!-- standalone Tomcat deployment -->
-      <!--soap:address location="http://localhost:8080/wsdl_first-<cxf-version>/services/CustomerServicePort"/-->
+      <soap:address location=""/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

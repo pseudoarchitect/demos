@@ -38,6 +38,7 @@
               <wsdlOptions>
                 <wsdlOption>
                   <wsdl>src/main/resources/CustomerService.wsdl</wsdl>
+                  <wsdlLocation>classpath:CustomerService.wsdl</wsdlLocation>
                   <!--<bindingFiles>
                     <bindingFile>src/main/resources/binding.xml</bindingFile>
                   </bindingFiles>-->
