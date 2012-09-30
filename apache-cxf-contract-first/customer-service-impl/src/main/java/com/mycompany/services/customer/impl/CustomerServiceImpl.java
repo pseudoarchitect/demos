@@ -23,12 +23,14 @@ public class CustomerServiceImpl implements CustomerService {
   public List<Customer> getCustomersByName(String name) throws NoSuchCustomerException {
     List<Customer> customers = new ArrayList<Customer>();
     Customer customer1 = new Customer();
+    Customer customer2 = new Customer();
     customer1.setName("Pseudo Architect");
     customer1.setCustomerId(12345);
-    customer1.setName("Real Architect");
-    customer1.setCustomerId(54321);
+    customer2.setName("Real Architect");
+    customer2.setCustomerId(54321);
 
     customers.add(customer1);
+    customers.add(customer2);
     return customers;
   }
 }
