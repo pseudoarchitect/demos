@@ -24,8 +24,11 @@ public class CustomerServiceImpl implements CustomerService {
     List<Customer> customers = new ArrayList<Customer>();
     Customer customer1 = new Customer();
     customer1.setName("Pseudo Architect");
-    customers.add(customer1);
+    customer1.setCustomerId(12345);
+    customer1.setName("Real Architect");
+    customer1.setCustomerId(54321);
 
+    customers.add(customer1);
     return customers;
   }
 }
