@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mycompany.demos</groupId>
-  <artifactId>ApacheCXF-SchemaValidationWAR</artifactId>
+  <artifactId>SchemaValidationWAR</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>ApacheCXF-SchemaValidationWAR</name>
+  <name>SchemaValidationWAR</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
